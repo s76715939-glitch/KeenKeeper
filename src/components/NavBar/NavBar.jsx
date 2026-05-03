@@ -12,16 +12,16 @@ export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "/", icon: <BiHomeAlt2 className="text-xl" /> },
+    { name: "Home", href: "/", icon: <BiHomeAlt2 size={18} /> },
     {
       name: "Timeline",
       href: "/timeline",
-      icon: <FaRegClock className="text-xl" />,
+      icon: <FaRegClock size={18} />,
     },
     {
       name: "Stats",
       href: "/stats",
-      icon: <FaChartLine className="text-xl" />,
+      icon: <FaChartLine size={18} />,
     },
   ];
 
