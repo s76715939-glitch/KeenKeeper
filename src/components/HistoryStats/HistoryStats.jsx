@@ -1,12 +1,6 @@
 "use client";
 import React, { useMemo } from "react";
-import {
-  ResponsiveContainer,
-  PieChart,
-  Pie,
-  Cell,
-  Tooltip,
-} from "recharts";
+import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip } from "recharts";
 
 const COLORS = {
   text: "#8b46ff",
@@ -19,7 +13,7 @@ const formatType = (t) => (typeof t === "string" ? t.trim().toLowerCase() : "");
 const HistoryStats = ({ data = [], title = "Friendship Analytics" }) => {
   const chartData = useMemo(() => {
     const counts = { text: 0, call: 0, video: 0 };
-    
+
     data.forEach((item) => {
       const t = formatType(item.type);
       if (t === "text") counts.text += 1;
@@ -31,17 +25,16 @@ const HistoryStats = ({ data = [], title = "Friendship Analytics" }) => {
       { name: "Text", value: counts.text, key: "text", color: COLORS.text },
       { name: "Call", value: counts.call, key: "call", color: COLORS.call },
       { name: "Video", value: counts.video, key: "video", color: COLORS.video },
-    ].filter(item => item.value > 0); 
+    ].filter((item) => item.value > 0);
   }, [data]);
 
   return (
     <div className="container mx-auto p-4">
-      
       <div className="bg-white rounded-xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] border border-gray-50/50 p-6 md:p-8">
         <h1 className="text-[26px] font-bold text-[#1f2937] mb-3 tracking-tight">
           {title}
         </h1>
-        
+
         <h2 className="text-[15px] font-semibold text-[#2b5242] mb-8">
           By Interaction Type
         </h2>
@@ -57,10 +50,10 @@ const HistoryStats = ({ data = [], title = "Friendship Analytics" }) => {
                     nameKey="name"
                     cx="50%"
                     cy="50%"
-                    innerRadius="70%" 
+                    innerRadius="70%"
                     outerRadius="90%"
-                    paddingAngle={8}  
-                    cornerRadius={40} 
+                    paddingAngle={8}
+                    cornerRadius={40}
                     startAngle={90}
                     endAngle={-270}
                     stroke="none"
@@ -72,7 +65,11 @@ const HistoryStats = ({ data = [], title = "Friendship Analytics" }) => {
                   </Pie>
                   <Tooltip
                     formatter={(value, name) => [value, name]}
-                    contentStyle={{ borderRadius: 8, border: "none", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}
+                    contentStyle={{
+                      borderRadius: 8,
+                      border: "none",
+                      boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+                    }}
                   />
                 </PieChart>
               </ResponsiveContainer>
