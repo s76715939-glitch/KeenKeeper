@@ -18,8 +18,8 @@ const Timeline = () => {
   }).reverse();
 
   return (
-    <div className="min-h-screen bg-[#f8f9fc] p-4 md:p-10 font-sans">
-      <div className="max-w-4xl mx-auto">
+    <div className="w-full p-4">
+      <div className="container mx-auto bg-white rounded-xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] border border-gray-50/50 p-6 md:p-8">
         
         {/* Header Section */}
         <h1 className="text-[26px] font-bold text-[#1f2937] mb-6 tracking-tight">

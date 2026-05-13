@@ -35,12 +35,12 @@ const HistoryStats = ({ data = [], title = "Friendship Analytics" }) => {
   }, [data]);
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 font-sans">
-      <h1 className="text-3xl font-bold text-slate-800 mb-6 tracking-tight">
-        {title}
-      </h1>
-
+    <div className="container mx-auto p-4">
+      
       <div className="bg-white rounded-xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] border border-gray-50/50 p-6 md:p-8">
+        <h1 className="text-[26px] font-bold text-[#1f2937] mb-3 tracking-tight">
+          {title}
+        </h1>
         
         <h2 className="text-[15px] font-semibold text-[#2b5242] mb-8">
           By Interaction Type
