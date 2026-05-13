@@ -2,6 +2,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import NavBar from "@/components/NavBar/NavBar";
+import { AppProvider } from "@/api/ContextAPI";
 
 const FontGeist = Geist({
   subsets: ["latin"],
@@ -15,12 +16,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${FontGeist.className} h-full antialiased`}>
+    <html lang="en" className={`${FontGeist.className} h-full antialiased`} data-theme="light">
       <body>
         <header>
           <NavBar />
         </header>
-        <main>{children}</main>
+        <main>
+          <AppProvider>
+            {children}
+        </AppProvider>
+        </main>
         <footer>
           <Footer />
         </footer>
