@@ -10,7 +10,7 @@ const FontGeist = Geist({
 });
 
 export const metadata = {
-  title: "KeenKeep",
+  title: "KeenKeeper",
   description: "Friends to keep close in your life",
 };
 
