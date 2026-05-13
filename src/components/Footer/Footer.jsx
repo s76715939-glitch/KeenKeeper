@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#244D3F] text-white p-6">
       <div className="max-w-7xl mx-auto text-center">
         {/* Brand Name */}
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-4xl sm:text-5xl font-bold">
           Keen<span className="font-light">Keeper</span>
         </h1>
         <p className="mt-2 text-sm md:text-base max-w-xl mx-auto text-white opacity-80">

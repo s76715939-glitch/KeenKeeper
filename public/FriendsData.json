@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "john.doe@gmail.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Emily Carter",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "email": "emily.carter@yahoo.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "Former manager who guided me through my first job.",
+    "goal": 10,
+    "next_due_date": "2025-07-13"
+  },
+  {
+    "id": 3,
+    "name": "Rajiv Patel",
+    "picture": "https://randomuser.me/api/portraits/men/67.jpg",
+    "email": "rajiv.patel@hotmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["neighborhood", "family friend"],
+    "bio": "Neighbor since childhood. We often play cricket together.",
+    "goal": 10,
+    "next_due_date": "2025-07-17"
+  },
+  {
+    "id": 4,
+    "name": "Sophia Nguyen",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sophia.nguyen@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["travel buddy", "college"],
+    "bio": "Met during a study abroad program in Italy. Loves photography.",
+    "goal": 14,
+    "next_due_date": "2025-07-08"
+  },
+  {
+    "id": 5,
+    "name": "Michael Brown",
+    "picture": "https://randomuser.me/api/portraits/men/83.jpg",
+    "email": "michael.brown@outlook.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["gym", "sports"],
+    "bio": "Workout partner at the local gym. Big fan of basketball.",
+    "goal": 7,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 6,
+    "name": "Hannah Lee",
+    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "email": "hannah.lee@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["book club", "creative"],
+    "bio": "Met at a local book club. Loves writing poetry.",
+    "goal": 14,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 7,
+    "name": "Carlos Ramirez",
+    "picture": "https://randomuser.me/api/portraits/men/54.jpg",
+    "email": "carlos.ramirez@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["travel", "old friend"],
+    "bio": "Met during a backpacking trip in South America. Passionate about cooking.",
+    "goal": 14,
+    "next_due_date": "2025-07-06"
+  },
+  {
+    "id": 8,
+    "name": "Aisha Khan",
+    "picture": "https://randomuser.me/api/portraits/women/77.jpg",
+    "email": "aisha.khan@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin who lives abroad. We catch up regularly over video calls.",
+    "goal": 10,
+    "next_due_date": "2025-07-14"
+  }
+]

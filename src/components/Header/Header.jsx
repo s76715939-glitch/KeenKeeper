@@ -17,7 +17,7 @@ const Header = () => {
       <div className="bg-white p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full border-b">
         {/* <!-- Card 1 --> */}
         <div className="bg-white rounded-lg border border-gray-100 shadow-sm p-8 flex flex-col items-center justify-center min-h-40">
-          <span className="text-3xl font-bold text-[#064e3b] mb-2">10</span>
+          <span className="text-3xl font-bold text-[#064e3b] mb-2">8</span>
           <span className="text-sm font-medium text-slate-500">
             Total Friends
           </span>
@@ -31,7 +31,7 @@ const Header = () => {
 
         {/* <!-- Card 3 --> */}
         <div className="bg-white rounded-lg border border-gray-100 shadow-sm p-8 flex flex-col items-center justify-center min-h-40">
-          <span className="text-3xl font-bold text-[#064e3b] mb-2">6</span>
+          <span className="text-3xl font-bold text-[#064e3b] mb-2">2</span>
           <span className="text-sm font-medium text-slate-500">
             Need Attention
           </span>

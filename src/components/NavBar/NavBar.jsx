@@ -40,7 +40,7 @@ export default function NavBar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium transition-colors
+                className={`flex items-center gap-1 px-3 py-2 rounded-sm text-sm font-medium transition-colors
                   ${
                     pathname === item.href
                       ? "bg-[#244D3F] text-white"
@@ -73,7 +73,7 @@ export default function NavBar() {
               key={item.name}
               href={item.href}
               onClick={() => setMenuOpen(false)}
-              className={`flex items-center justify-center text-left gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors
+              className={`flex items-center justify-center text-left gap-2 px-3 py-2 rounded-sm text-sm font-medium transition-colors
                 ${
                   pathname === item.href
                     ? "bg-[#244D3F] text-white"
